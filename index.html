@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiardDesign - twoje ogrody</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/giarddesign.png" alt="Logo"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Strona Główna</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#oferta" role="button" id="ofertaDropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Oferta
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="ofertaDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#Projekty">Projekty</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#wizualizacje">Wizualizacje</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#realizacje">Realizacje</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#o-firmie">O firmie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#realizacje">Realizacje</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn search-button" id="searchToggle" type="button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                            <div class="search-form" id="searchForm">
+                                <form>
+                                    <input class="form-control" type="search" placeholder="Wyszukaj" aria-label="Search">
+                                    <button class="btn btn-primary mt-2" type="submit">Szukaj</button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+<main>
+
+<section id="hero">
+  <div class="hero-slider">
+    <div class="hero-container" style="background-color: #DCC1AB;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1>Nowoczesna aranżacja Twojego ogrodu</h1>
+                        <p>Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy
+                            kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.</p>
+                    </div>
+                    <a href="#kontakt" class="btn btn-success btn-rounded">Skontaktuj się z nami</a>
+                    <a href="#realizacje" class="btn btn-outline-success btn-rounded">Zobacz nasze realizacje <i class="bi bi-arrow-down"></i></a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/navbar.jpeg" alt="Hero Image" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+
+<section id="oferta" style="background-color: #F5F0EC;">
+  <div class="container">
+      <h2 class="oferta-text mb-4">Działamy kompleksowo</h2>
+      <p class="oferta-opis">Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody 
+        przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, 
+        a na każdym etapie posłużymy radą i wieloletnim doświadczeniem. </p>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card border">
+                  <i class="bi bi-pen"></i>
+                  <div class="card-body">
+                      <h5 class="card-title"> Projekty</h5>
+                      <p class="card-text">
+                      Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.    
+                      </p>
+                      <p class="card-link"><a href="#">Dowiedz się wiecej</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card border">
+                  <i class="bi bi-eye"></i>
+                  <div class="card-body">
+                      <h5 class="card-title">Wizualizacje</h5>
+                      <p class="card-text">
+                        Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.
+                      </p>
+                      <p class="card-link"><a href="#">Dowiedz się wiecej</a></p>   
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card border">
+                  <i class="bi bi-star"></i>
+                  <div class="card-body">
+                      <h5 class="card-title"></i>Realizacje</h5>
+                      <p class="card-text">
+                        Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.
+                      </p>
+                      <p class="card-link"><a href="#">Zobacz nasze realizacje</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="o-firmie">
+    <div id="left-column">
+        <img src="img/company.jpg" alt="company Image" id="company-image">
+    </div>
+    <div style="flex: 1; padding-left: 10%;">
+        <h2 style="color: #FFF; font-size: 32px; font-weight: bold;">Tworzymy z pasją</h2>
+        <p style="color: #FFF; font-size: 18px; line-height: 1.6;">Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz architekci, 
+            których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. 
+            Nasza specjalizacja to przestrzenie nowoczesne, które charakteryzuje minimalizm, geometria i elegancka prostota. 
+            Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.</p>
+        <a href="#" class="btn btn-outline-light" style="border-radius: 25px;">Poznaj Nas Blizej <i class="bi bi-arrow-right"></i></a>
+    </div>
+</section>
+
+<section id="realizacje">
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 40px;">Nasze projekty</h2>
+        <div class="row">
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt1.jpg" data-lightbox="realizacje" data-title="Projekt 1">
+                        <img src="img/projekt1.jpg" alt="Realizacja 1" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt2.jpg" data-lightbox="realizacje" data-title="Projekt 2">
+                        <img src="img/projekt2.jpg" alt="Realizacja 2" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt3.jpg" data-lightbox="realizacje" data-title="Projekt 3">
+                        <img src="img/projekt3.jpg" alt="Realizacja 3" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt4.jpg" data-lightbox="realizacje" data-title="Projekt 4">
+                        <img src="img/projekt4.jpg" alt="Realizacja 3" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt5.jpg" data-lightbox="realizacje" data-title="Projekt 5">
+                        <img src="img/projekt5.jpg" alt="Realizacja 3" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt6.jpg" data-lightbox="realizacje" data-title="Projekt 6">
+                        <img src="img/projekt6.jpg" alt="Realizacja 3" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt7.jpg" data-lightbox="realizacje" data-title="Projekt 7">
+                        <img src="img/projekt7.jpg" alt="Realizacja 3" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt8.jpg" data-lightbox="realizacje" data-title="Projekt 8">
+                        <img src="img/projekt8.jpg" alt="Realizacja 3" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 project-item">
+                <div class="project-item">
+                    <a href="img/projekt9.jpg" data-lightbox="realizacje" data-title="Projekt 9">
+                        <img src="img/projekt9.jpg" alt="Realizacja 3" class="img-fluid project-image">
+                    </a>
+                </div>
+            </div>
+          
+        </div>
+        <div class="text-center">
+            <button id="expandButton">
+                <span id="scrollToRealizacjeButton" class="expand-text">Rozwiń</span>
+                <i class="bi bi-arrow-down"></i>
+                <i class="bi bi-arrow-up" style="display: none;"></i>
+            </button>
+        </div>
+</section>
+
+<section id="instagram-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="rectangle">
+            <p>Zostańmy w kontakcie!<br>Znajdziesz nas na Instagramie.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="social">
+            <p>Śledź nasze najnowsze relacje</p>
+            <a href="https://www.instagram.com/twoja_nazwa_na_instagramie/" class="btn btn-instagram" target="_blank">
+              Instagram
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+<footer id="footer">
+    <div class="container footer-container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a class="navbar-brand" href="#"><img src="img/giarddesignblack.svg" alt="Logo"/></a>
+        </div>
+        <p class="footer-text">Daj znać, co możemy dla Ciebie zrobić!</p>
+        <a href="#" class="btn-rounded footer-button">Skontaktuj się z nami</a>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <div class="footer-social">
+          <i class="bi bi-facebook">Facebook</i>
+           <i class="bi bi-instagram">Instagram</i>
+           <i class="bi bi-linkedin">Linkedin</i>
+         
+        </div>
+        <div class="footer-contact">
+          <span class="footer-phone">Telefon: +48 123 456 789</span>
+          <span class="footer-email">E-mail: kontakt@example.com</span>
+        </div>
+      </div>
+      <div class="footer-content">
+        <span class="footer-copywrite">Prawa zastrzeżone © 2022</span>
+        <div class="footer-madeby-text">
+          Made by <a class="navbar-brand" href="#"><img src="img/logo-full-light.svg" alt="Logo"/></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/masonry@4.2.2/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/isotope-layout@4.0.0/dist/isotope.pkgd.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>

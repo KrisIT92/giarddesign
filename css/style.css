@@ -1,0 +1,460 @@
+/* Przycisk wyszukiwania w nawigacji */
+.search-button {
+  border: none;
+  background-color: transparent;
+}
+
+/* Element nawigacji z podmenu */
+.nav-item {
+  position: relative;
+}
+
+/* Formularz wyszukiwania */
+.search-form {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  max-width: 400px;
+  width: 538%;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.search-form.active {
+  transform: scaleY(1);
+}
+
+/* Nawigacja */
+.navbar {
+  position: relative;
+}
+
+/* Sekcja główna */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 15px;
+}
+
+/* Sekcja hero */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: -80px;
+}
+
+/* Nagłówek h1 */
+h1 {
+  font-family: 'Montserrat';
+  margin-top: 23%;
+  width: Hug (249px);
+  height: Hug (50px);
+  padding: 12px 22px 14px 22px;
+  border-radius: 200px;
+  border: 1px;
+  gap: 8px;
+}
+
+/* Obraz w sekcji hero */
+.hero-image {
+  width: 957px;
+  height: 703px;
+  margin-bottom: 15px;
+}
+
+/* Sekcja "Oferta" */
+#oferta {
+  background-color: #F5F0EC;
+  display: flex;
+  width: 100%;
+  padding: 120px 0px 160px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.oferta-text {
+  color: var(--black, #111);
+  font-family: 'Montserrat' Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+  letter-spacing: -1.44px;
+}
+
+.oferta-opis {
+  text-align: left;
+  padding-right: 48%;
+  padding-bottom: 10%;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+  .hero-content {
+    align-items: center;
+    padding: 0;
+  }
+}
+
+/* Tytuł karty */
+.card-title {
+  font-size: 40px;
+}
+
+/* Treść karty */
+#card-body {
+  padding: 48px 40px;
+}
+
+/* Ikony */
+i {
+  font-size: 14px;
+}
+
+/* Linki w karcie */
+.card-link {
+  padding-top: 30%;
+  color: green;
+}
+
+/* Sekcja "O firmie" */
+#o-firmie {
+  background-color: #1B5B31;
+  display: flex;
+  width: 100%;
+  padding: 117px 0;
+  align-items: flex-start;
+  gap: 96px;
+  position: relative;
+}
+
+/* Lewa kolumna sekcji "O firmie" */
+#left-colum {
+  flex: 1;
+  position: sticky;
+  top: 0;
+  padding-right: 10%;
+}
+
+/* Obraz firmy */
+#company-image {
+  width: 688px;
+  height: 720px;
+  flex-shrink: 0;
+  margin-top: -17%;
+  margin-bottom: -17%;
+}
+
+/* Zaokrąglone przyciski */
+.btn-rounded {
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #1B5B31;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-rounded i {
+  margin-left: 10px;
+}
+
+/* Sekcja "Realizacje" */
+#realizacje {
+  padding: 120px 0;
+  background: linear-gradient(to bottom, #e2b692, #DCC1AB);
+}
+
+/* Siatka projektów */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 20px;
+}
+
+/* Element siatki projektów */
+.grid-item {
+  margin-bottom: 10px;
+}
+
+/* Obrazy w elemencie siatki projektów */
+.grid-item img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Element siatki projektów 1 */
+.grid-item1 {
+  width: 451px;
+  height: 601px;
+  flex-shrink: 0;
+}
+
+/* Ikony */
+.bi-pen {
+  font-size: 260%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.bi-eye {
+  font-size: 260%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.bi-star {
+  font-size: 260%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+/* Sekcja "Instagram" */
+#instagram-block {
+  background-color: #F5F0EC;
+}
+
+/* Blok Instagrama */
+.instagram-block {
+  background-color: #1B5B31;
+  width: 150px;
+  height: 250px;
+}
+
+/* Tekst reprezentujący Instagram */
+.instagram-rectangle {
+  color: var(--grey, #F5F0EC);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+
+/* Sekcja "Realizacje" */
+#realizacje {
+  background-color: #F5F0EC;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Kontener w sekcji "Realizacje" */
+#realizacje .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Element projektu */
+.project-item {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+/* Obraz projektu */
+.project-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Przycisk "Rozwiń" */
+#expandButton {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#expandButton:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+/* Sekcja "Instagram" */
+#instagram-block {
+  background-color: #1B5B31;
+  display: flex;
+  width: 83%;
+  padding: 60px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 73px auto 66px;
+}
+
+/* Prostokąt w sekcji "Instagram" */
+.rectangle {
+  color: var(--grey, #F5F0EC);
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+/* Tekst w prostokącie */
+.rectangle p {
+  text-align: center;
+}
+
+/* Sekcja z przyciskiem i tekstem */
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Przycisk Instagram */
+.btn-instagram {
+  font-size: 18px;
+  font-weight: bold;
+  color: #F5F0EC;
+  background-color: transparent;
+  border: 2px solid #F5F0EC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-instagram:hover {
+  background-color: #F5F0EC;
+  color: #1B5B31;
+   border: 2px solid #F5F0EC;
+    
+}
+
+/* Tekst pod przyciskiem */
+.social p {
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+/* Styl stopki */
+#footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Styl kontenera stopki */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styl treści stopki */
+.footer-content {
+  flex: 1;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+/* Styl tekstu stopki */
+.footer-text {
+  font-size: 18px;
+  margin-left: auto;
+}
+
+/* Styl przycisku stopki */
+.footer-button {
+  background-color: #1B5B31;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Styl linii stopki */
+.footer-divider {
+  border-top: 1px solid #333;
+  flex-basis: 100%;
+  margin: 20px 0;
+}
+
+/* Styl ikon społecznościowych */
+.footer-social i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Styl informacji kontaktowych */
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Styl tekstu numeru telefonu i adresu e-mail */
+.footer-phone,
+.footer-email {
+  font-size: 16px;
+  margin: 2px 10px; 
+}
+
+/* Styl tekstu copywrite */
+.footer-copywrite {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Styl tekstu "Made by" */
+.footer-madeby-text {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center; 
+}
+
+/* Styl loga firmy */
+.footer-madeby-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 10px;
+}
+
+.footer-madeby-logo img {
+  width: 50px;
+  height: auto;
+}
